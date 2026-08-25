@@ -18,7 +18,7 @@ Personal portfolio website, currently a work in progress.
 https://github.com/harmen91/mojo-dot-fish.git
 ```
 
-2. create .env file with one line, choose a different port: 
+2. create .env file in the root of the project with one line (change port number): 
 
 ```
 PHP_PORT=1234
