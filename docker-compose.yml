@@ -1,0 +1,12 @@
+services:
+  php-site:
+    image: php:apache
+    container_name: mojo-dot-fish
+    restart: unless-stopped
+    volumes:
+      # Mounts the local site/ folder into Apache's web root
+      - ./wip-site:/var/www/html
+    # Create a custom unique port everytime
+    # Create .env file in root of the project containing PHP_PORT=1234 (change 1234)
+    ports:
+      - "${PHP_PORT:-3002}:80"
