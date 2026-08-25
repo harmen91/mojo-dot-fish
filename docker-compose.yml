@@ -1,5 +1,5 @@
 services:
-  php-site:
+  mojo-dot-fish:
     image: php:apache
     container_name: mojo-dot-fish
     restart: unless-stopped

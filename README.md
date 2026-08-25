@@ -35,7 +35,7 @@ docker compose up -d
 5. update website
 
 ```
-git pull && docker compose restart mojo-dot-fish
+git pull && docker restart mojo-dot-fish
 ```
 
 ---
