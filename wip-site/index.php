@@ -35,5 +35,7 @@
   <div class="tag">// -- mojo [dot] fish -- \\</div>
   <div class="big">(o^^)</div>
   <div class="tag">\\ -- come back later -- //</div>
+  <div class="tag"><a href="https://github.com/harmen91">in the meantime <br>check out my github</a></div>
+
 </body>
 </html>
